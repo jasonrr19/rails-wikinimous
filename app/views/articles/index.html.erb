@@ -1,0 +1,8 @@
+<div class="container">
+<h1>Here are your articles!</h1>
+  <ul>
+    <% @articles.each do |article| %>
+    <li><%= article.title %></li>
+    <% end %>
+  </ul>
+</div>
